@@ -31,7 +31,7 @@ public class WeaponManager : MonoBehaviour
             EnemieManager enemyManager = hit.transform.GetComponent<EnemieManager>();
             if(enemyManager != null)
             {
-                enemyManager.Hit(damage);
+                //enemyManager.Hit(damage);
             }
         }
     }
