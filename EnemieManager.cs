@@ -15,7 +15,7 @@ public class EnemieManager : MonoBehaviour
         enemyHealth -= damage;
         if(enemyHealth <= 0)
         {
-            //Destroy(gameObject);
+            Destroy(gameObject);
         }
     }
     // Start is called before the first frame update
