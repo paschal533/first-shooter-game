@@ -9,7 +9,7 @@ public class PlayerManager : MonoBehaviour
 
     public void Hit(float damage)
     {
-        health -= damage;
+        //health -= damage;
 
         if(health <= 0)
         {
