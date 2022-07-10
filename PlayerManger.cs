@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerManager : MonoBehaviour
 {
-    public float health = 100;
+    //public float health = 100;
 
     public void Hit(float damage)
     {
