@@ -34,7 +34,7 @@ public class EnemieManager : MonoBehaviour
         }
         else
         {
-           // enemyAnimator.SetBool("isRuning", false);
+            enemyAnimator.SetBool("isRuning", false);
 
         }
     }
